@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.southgis.leqibike">
+
+    <application
+        android:name="com.southgis.iandroidwidget.MyApp"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:networkSecurityConfig="@xml/network_config"
+        android:requestLegacyExternalStorage="true"
+        tools:replace="android:allowBackup">
+        <activity
+            android:name="com.southgis.iandroidwidget.activity.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+<!--        <activity android:name="com.southgis.iandroidwidget.activity.ViewWidgetActivity"/>-->
+<!--        <activity android:name="com.southgis.iandroidwidget.activity.NetworkWidgetActivity"/>-->
+<!--        <activity android:name="com.southgis.iandroidwidget.activity.PreviewWidgetActivity"/>-->
+<!--        <activity android:name="com.southgis.iandroidwidget.activity.CommonWidgetActivity"/>-->
+<!--        <activity android:name="com.southgis.iandroidwidget.activity.CAWidgetActivity"/>-->
+<!--        <activity android:name="com.southgis.iandroidwidget.activity.MeetingWidgetActivity"/>-->
+<!--        <activity android:name="com.southgis.iandroidwidget.activity.PictureWidgetActivity"/>-->
+<!--        <activity android:name="com.southgis.iandroidwidget.activity.CacheWidgetActivity"/>-->
+<!--        <activity android:name="com.southgis.iandroidwidget.activity.EncryptWidgetActivity"/>-->
+<!--        <activity android:name="com.southgis.iandroidwidget.activity.MyPreviewFileActivity"/>-->
+
+        <!--        <activity android:name=".Activity.WebWidgetActivity"/>-->
+    </application>
+
+</manifest>

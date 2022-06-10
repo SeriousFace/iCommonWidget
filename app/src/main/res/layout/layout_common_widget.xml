@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tv_pm"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="获取权限"
+        android:background="#e3e3e3"/>
+
+    <TextView
+        android:id="@+id/tv_open_file_choose"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:text="打开文件选择"
+        android:background="#e3e3e3"/>
+
+    <TextView
+        android:id="@+id/tv_to_base64"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="文件转base64"
+        android:background="#e3e3e3"/>
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="当前日期"
+        android:background="#e3e3e3"/>
+</LinearLayout>

@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/iCommonWidget.iml" filepath="$PROJECT_DIR$/.idea/modules/iCommonWidget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/iAndroidWidget.iml" filepath="$PROJECT_DIR$/.idea/modules/iAndroidWidget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/iAndroidWidget.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/iAndroidWidget.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/iCommonWidget/iAndroidWidget.iCommonWidget.iml" filepath="$PROJECT_DIR$/.idea/modules/iCommonWidget/iAndroidWidget.iCommonWidget.iml" />
     </modules>
   </component>
 </project>
